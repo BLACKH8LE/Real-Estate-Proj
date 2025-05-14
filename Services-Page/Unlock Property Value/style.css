@@ -15,7 +15,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 150%; /* 27px */
 align-self: stretch;  }
-div *class-icon {
+.icon{
     border-radius: 12px;
 border: 1px solid var(--Grey-15, #262626);
 display: flex;
