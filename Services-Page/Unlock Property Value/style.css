@@ -1,4 +1,7 @@
-body {background: var(--Grey-08, #141414);}
+body {background: var(--Grey-08, #141414);
+display: flex;
+}
+
 h2 {color: var(--Absolute-White, #FFF);
     font-family: Urbanist;
     font-size: 48px;
@@ -7,24 +10,7 @@ h2 {color: var(--Absolute-White, #FFF);
     line-height: 150%;
     align-self: stretch;
     }
-    p {
-        color: var(--Grey-60, #999);
-font-family: Urbanist;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; /* 27px */
-align-self: stretch;  }
-.icon{
-    border-radius: 12px;
-border: 1px solid var(--Grey-15, #262626);
-display: flex;
-padding: 50px;
-flex-direction: column;
-align-items: flex-start;
-gap: 30px;
-flex: 1 0 0;
-}
+ 
 h3 {
     color: var(--Absolute-White, #FFF);
 font-family: Urbanist;
@@ -35,9 +21,6 @@ line-height: 150%;
 flex: 1 0 0;
 }
 button {
-    border-radius: 10px;
-border: 1px solid var(--Grey-15, #262626);
-background: var(--Grey-08, #141414);
 display: flex;
 padding: 18px 24px;
 align-items: center;
@@ -47,5 +30,60 @@ font-family: Urbanist;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
+line-height: 150%;
+ border-radius: 10px;
+border: 1px solid var(--Grey-15, #262626);
+background: var(--Grey-08, #141414);
+}
+.button-department {
+display: flex;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+   border-radius: 12px;
+border: 1px solid var(--Grey-15, #262626);
+}
+   p{ color: var(--Grey-60, #999);
+font-family: Urbanist;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
 line-height: 150%; /* 27px */
+align-self: stretch;  }
+icon-row-item{
+align-items: center;
+gap: 20px;
+align-self: stretch;
+ display: flex;
+}
+icon-section{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    flex-wrap: nowrap;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    border-radius: 12px;
+border: 1px solid var(--Grey-15, #262626);
+}
+icon-row {
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    border: 1px solid #262626;
+     display: flex;
+}
+.content{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
