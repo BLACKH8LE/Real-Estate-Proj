@@ -9,5 +9,5 @@
 ## 🌐 Живая версия сайта
 
 👉 [Открыть "Home"](https://BLACKH8LE.github.io/Real-Estate-Proj/home-page.html)
-👉 [Открыть "Services"](https://BLACKH8LE.github.io/Real-Estate-Proj/Services-page.html)
-👉 [Открыть "About-Us"](https://BLACKH8LE.github.io/Real-Estate-Proj/About-Us-page.html)
+👉 [Открыть "Services"](https://BLACKH8LE.github.io/Real-Estate-Proj/Services.html)
+👉 [Открыть "About-Us"](https://BLACKH8LE.github.io/Real-Estate-Proj/About-Us.html)
