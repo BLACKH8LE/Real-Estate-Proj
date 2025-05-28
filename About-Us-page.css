@@ -1172,6 +1172,12 @@ body {
   box-shadow: 0px 0px 0px 8px #191919;
   border-radius: 12px;
   border-width: 1px;
+  
+}
+.Cards-Title {
+    display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 .squares-title {
   width: 405.67px;
@@ -1182,6 +1188,12 @@ body {
   line-height: 150%;
   letter-spacing: 0%;
   color: #ffffff;
+  min-height: 200px;
+  padding: 20px;
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
 }
 .squares-text {
   width: 405.67px;
@@ -1228,6 +1240,11 @@ body {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+}
+.steps {
+    display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 .step-title-max {
   margin-top: 0px;
