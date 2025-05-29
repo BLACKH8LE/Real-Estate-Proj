@@ -1159,6 +1159,10 @@ body {
 }
 body {
   background: #141414;
+   margin:  auto 0;
+}
+.achievements{
+ 
 }
 .star {
   padding-left: 142px;
