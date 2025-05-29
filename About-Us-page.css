@@ -969,14 +969,14 @@ body {
   height: 478px;
   border-radius: 12px;
   border-width: 1px;
-  padding: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
   border: 1px solid #262626;
   box-shadow: 0px 0px 0px 8px #191919;
 }
 .corporation-knob-container {
   padding-bottom: 40px;
   padding-top: 50px;
-  padding-right: 50px;
 }
 .corporation-knob {
   margin-bottom: 0;
