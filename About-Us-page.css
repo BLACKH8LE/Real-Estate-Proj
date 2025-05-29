@@ -944,7 +944,7 @@ body {
   background: #141414;
 }
 .clients-container {
-   padding-top: 110px;
+  padding-top: 110px;
 }
 .clients-container-title {
   font-family: Urbanist;
@@ -1158,15 +1158,14 @@ body {
   display: flex;
 }
 .leaf-container {
-
 }
 
 .leaf-container {
 }
 .achievements {
 }
-.plate{
-   padding-top: 110px;
+.plate {
+  padding-top: 110px;
 }
 .star {
   padding-left: 142px;
@@ -1232,6 +1231,70 @@ body {
   display: flex;
   gap: 30px;
 }
+@media (max-width: 700px) {
+  .years-title {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 0;
+    padding-left: 81px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .years-text {
+    max-width: 1029px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 0;
+    padding-top: 10px;
+    font-family: Urbanist;
+    font-weight: 500;
+    color: #999999;
+    padding-left: 81px;
+  }
+  .squares {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    border: 1px solid #262626;
+    box-shadow: 0px 0px 0px 8px #191919;
+    border-radius: 12px;
+    border-width: 1px;
+  }
+  .squares-title {
+    margin: 0;
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+  .squares-text {
+    margin: 0;
+    width: 326px;
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #999999;
+  }
+  .squares-container {
+    padding-left: 81px;
+    padding-top: 60px;
+    display: flex;
+    gap: 30px;
+  }
+}
+@media @media (max-width: 390px) {
+  
+}
 
 body {
   background: #141414;
@@ -1240,7 +1303,7 @@ body {
   padding-left: 142px;
 }
 
-.advice{
+.advice {
   padding-top: 110px;
 }
 .step-container-2 {
@@ -1250,7 +1313,7 @@ body {
 .step-conteiner {
   display: none;
 }
-.step-conteiner:nth-child(-n+3) {
+.step-conteiner:nth-child(-n + 3) {
   display: block;
 }
 @media screen and (min-width: 390px) {
