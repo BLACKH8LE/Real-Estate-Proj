@@ -944,6 +944,7 @@ body {
   background: #141414;
 }
 .clients-container {
+   padding-top: 110px;
 }
 .clients-container-title {
   font-family: Urbanist;
@@ -1163,6 +1164,9 @@ body {
 .leaf-container {
 }
 .achievements {
+}
+.plate{
+   padding-top: 110px;
 }
 .star {
   padding-left: 142px;
