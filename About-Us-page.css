@@ -1238,8 +1238,24 @@ body {
 .star {
   padding-left: 142px;
 }
+
 .advice{
   padding-top: 110px;
+}
+.step-container-2 {
+  display: none;
+}
+
+.step-conteiner {
+  display: none;
+}
+.step-conteiner:nth-child(-n+3) {
+  display: block;
+}
+@media screen and (min-width: 390px) {
+  .step-conteiner {
+    display: block;
+  }
 }
 .advice-title {
   font-family: Urbanist;
