@@ -362,6 +362,14 @@ width: 1440px;
 height: 3672px;
 flex-wrap: wrap;
 }
+body {background: var(--Grey-08, #141414);
+display: flex;
+align-items: center;
+gap: 60px;
+width: 1440px;
+height: 3672px;
+flex-wrap: wrap;
+}
 
 h2 {color: var(--Absolute-White, #FFF);
     font-family: Urbanist;
@@ -403,7 +411,8 @@ gap: 20px;
 align-self: stretch;
    border-radius: 12px;
 border: 1px solid var(--Grey-15, #262626);
-padding:100px 40px;
+padding:100px 40px;flex-wrap: wrap;
+
 }
    p{ color: var(--Grey-60, #999);
 font-family: Urbanist;
@@ -441,14 +450,10 @@ icon-row {
     display: flex;
 }
 .nadoelo {
-    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
 }
-.dn {
-    align-items: flex-start;
-    gap: 30px;
-    align-self: stretch;
-display: flex;
-}
+
 body{
     background-color: #262626;
     display: flex;
