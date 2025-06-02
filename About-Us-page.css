@@ -1532,6 +1532,7 @@ body {
   height: 80%;
   background: linear-gradient(180deg, #703bf7 0%, transparent 100%);
 }
+<<<<<<< HEAD
 @media (max-width: 550px) {
   .step-container-1 {
     flex-direction: column;
@@ -1636,3 +1637,141 @@ body {
   color: #999999;
 }
 }
+=======
+body {
+  background-color: #1a1a1a;
+  color: #ffff;
+}
+.header {
+}
+.header-title-container {
+  border-bottom: 1px solid #262626;
+}
+.header-container {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  display: flex;
+}
+.header-title {
+  font-family: Urbanist;
+  font-weight: 500;
+  font-size: 18px;
+}
+.header-title-text-container a {
+  padding-top: 18px;
+  color: #fff;
+  font-family: Urbanist;
+}
+.header-title-text-container {
+  margin: 0px;
+  padding-top: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+.header-item {
+}
+.header-item-text-container {
+  position: absolute;
+  right: 32px;
+  top: 45px;
+  padding-right: 4px;
+  display: flex;
+  justify-content: right;
+}
+.header-item-text {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: right;
+  width: 32px;
+  height: 32px;
+  gap: 10px;
+  padding: 4px;
+}
+.header-item-text:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.media {
+  display: flex;
+}
+.media-page {
+  padding-left: 162px;
+  padding-top: 20px;
+  font-family: Urbanist;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+.header-title-text {
+  padding-top: 30px;
+}
+.Fioletik-title {
+}
+.Fioletik {
+  width: 48px;
+  height: 48px;
+}
+.media-title {
+  color: #ffffff;
+  width: 48px;
+  height: 27px;
+  font-family: Urbanist;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  margin-left: 30px;
+}
+.media-title-about-contacts {
+  font-family: Urbanist;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  margin-left: 30px;
+  background: #141414;
+  border: 1px solid #262626;
+  color: #ffffff;
+}
+.media-title-about-contacts-US {
+  font-family: Urbanist;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  gap: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  margin-left: 220px;
+  margin-right: 162px;
+  background: #141414;
+  border: 1px solid #262626;
+  color: #ffffff;
+}
+.media-title-container {
+  display: flex;
+}
+.header-title-text {
+  padding-left: 239px;
+}
+>>>>>>> fbde798b37efff349c5e2131839277d230bec46e
