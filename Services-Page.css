@@ -110,8 +110,7 @@ body {
   color: #ffffff;
   margin: 12px 0;
 }
-
-/* Планшеты: от 768px и выше */
+    
 @media (min-width: 768px) {
   .header-container {
     flex-direction: row;
@@ -138,8 +137,6 @@ body {
     margin-right: 40px;
   }
 }
-
-/* Десктоп: от 1024px и выше */
 @media (min-width: 1024px) {
   .header-container-1 {
     max-width: 1440px;
@@ -173,7 +170,6 @@ body {
   }
 }
 
-/*ваш цсс*/
 
 
 * {
@@ -1844,9 +1840,6 @@ body {
   gap: 12px;
   display: flex;
 }
-.header-title-text {
-  padding-top: 30px;
-}
 .Fioletik-title {
 }
 .Fioletik {
@@ -1900,8 +1893,12 @@ body {
 .media-title-container {
   display: flex;
 }
+.media-title-container {
+  display: flex;
+}
 .header-title-text {
   padding-left: 239px;
+    padding-top: 30px;
 }
 * {
   margin: 0;
